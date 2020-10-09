@@ -1,0 +1,12 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    background: grey;
+}
+h1{
+    color: brown;
+    font-size: big ;
+    text-decoration: underline;
+}
