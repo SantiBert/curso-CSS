@@ -7,9 +7,33 @@ body{
 }
 /* selector de etiqueta */
 h1{
+    background-color: royalblue;
     color: brown;
     font-size: big ;
     text-decoration: underline;
+}
+
+input[type ="text"]{
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 200px;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+select[name="edad"]{
+    background-color: salmon;
+    color: tomato;
+}
+
+#saludo h1{
+    background-color: blue;
 }
 
 #parrafo{
@@ -17,9 +41,11 @@ h1{
     padding: 15px;
 }
 
-#usuario form *{
+#usuario form {
     display: block;
-    border: 15px;
+    border: 15px solid rebeccapurple;
+    padding: 20px;
+
 }
 
 .parrafo{
