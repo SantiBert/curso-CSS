@@ -32,6 +32,10 @@ select[name="edad"]{
     color: tomato;
 }
 
+#caja1{    ;
+    background-color: seagreen;
+}
+
 #saludo h1{
     background-color: blue;
 }
